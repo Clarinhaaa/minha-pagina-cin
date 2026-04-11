@@ -1,15 +1,14 @@
+import { Outlet } from "react-router";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  const nome = "Ana Clara";
-
   return (
-    <div>
-      <h1>Hello, {nome}!</h1>
-      <p>teste</p>
-    </div>
+    <>
+      <Header />
+      <Outlet />
+    </>
   );
 }
 
 export default App;
- 
