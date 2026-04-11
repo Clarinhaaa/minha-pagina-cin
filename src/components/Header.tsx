@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 
 function Header() {
   return (
-    <nav>
+    <header>
       <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
         Home
       </NavLink>
@@ -12,7 +12,7 @@ function Header() {
       >
         Link teste
       </NavLink>
-    </nav>
+    </header>
   );
 }
 

@@ -1,8 +1,9 @@
+/* Estilos globais para tags */
+
 :root {
   --text: #000;
   --text-h: #000;
   --bg: #fff;
-  --social-bg: rgba(244, 243, 236, 0.5);
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -20,7 +21,7 @@
 
 #root {
   text-align: center;
-  min-height: 100svh;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -53,4 +54,8 @@ h2 {
   @media (max-width: 1024px) {
     font-size: 20px;
   }
+}
+
+a {
+    padding: 5px;
 }
