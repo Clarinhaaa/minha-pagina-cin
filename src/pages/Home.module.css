@@ -4,7 +4,6 @@
   align-items: center;
 }
 
-
 .infoBasica {
   display: flex;
   gap: 50px;
@@ -14,9 +13,6 @@
 
   img {
     width: 250px;
-    border-radius: 5px;
-    box-shadow: 4px 4px var(--accent-color);
-    object-fit: contain;
   }
 
   @media (max-width: 1260px) {

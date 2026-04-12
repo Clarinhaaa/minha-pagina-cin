@@ -5,7 +5,7 @@ function SobreMim() {
     <section className={styles.sobreMimContainer}>
       <h1>Sobre mim</h1>
 
-      <section className={styles.infoContainer}>
+      <section className={styles.infos}>
         <article className={styles.textBlock}>
           <h2>lorem</h2>
           <p>

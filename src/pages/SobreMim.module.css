@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.infoContainer {
+.infos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
