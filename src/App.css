@@ -1,5 +1,5 @@
 /* Estilos globais para classes */
-
 a.active {
-    color: pink;
+    background-color: #edcc55;
+    border-radius: 5px;
 }

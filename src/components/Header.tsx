@@ -1,16 +1,23 @@
 import { NavLink } from "react-router";
+import style from "./Header.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={style.headerContainer}>
       <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
-        Home
+        Início
       </NavLink>
       <NavLink
-        to="/rota-teste"
+        to="/sobre-mim"
         className={({ isActive }) => (isActive ? "active" : "")}
       >
-        Link teste
+        Sobre mim
+      </NavLink>
+      <NavLink
+        to="/portfolio"
+        className={({ isActive }) => (isActive ? "active" : "")}
+      >
+        Portfólio
       </NavLink>
     </header>
   );
