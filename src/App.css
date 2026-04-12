@@ -1,5 +1,3 @@
-/* Estilos globais para classes */
-a.active {
-    background-color: var(--accent-color);
-    border-radius: 5px;
+main {
+    margin: 100px 50px;
 }

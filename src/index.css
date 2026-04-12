@@ -1,4 +1,4 @@
-/* Estilos globais para tags */
+/* Estilos globais */
 
 :root {
   --text: #fff;
@@ -37,6 +37,7 @@ h2 {
   font-family: var(--heading);
   font-weight: 500;
   color: var(--text-h);
+  margin-top: 0;
 }
 
 h1 {
@@ -62,4 +63,9 @@ a {
     text-decoration: none;
     color: var(--accent-color);
     padding: 5px 10px;
+}
+
+a.active {
+  background-color: var(--accent-color);
+  border-radius: 5px;
 }
