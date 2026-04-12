@@ -24,5 +24,5 @@ Definitivamente ainda tenho muito o que aprender e reconheço que há coisas nes
 ## Uso de IA
 Durante o desenvolvimento, houve o uso de duas ferramentas de Inteligência Artificial, mas nenhum código que está aqui foi escrito ou moddificado por uma delas:
 
-1. Copilot do Visual Studio Code: consultado como guia para corrigir pequenos erros que estava com dificuldade de resolver, já que ele tem acesso direto ao projeto.
-2. Gemini: esse foi menos usado, tendo sido útil apenas nas etapas iniciais da programação, quando ainda estava testando funcionalidades do React. Nesse caso, tirei uma dúvida sobre o React Router e como ele consegue modificar dinamicamente o estilo dos links de rotas com o seu componente *NavLink*. No final, essa dúvida foi essencial para que eu pudesse definir melhor a estrutura inicial do site.
+1. **Copilot do Visual Studio Code**: consultado como guia para corrigir pequenos erros que estava com dificuldade de resolver, já que ele tem acesso direto ao projeto.
+2. **Gemini**: esse foi menos usado, tendo sido útil apenas nas etapas iniciais da programação, quando ainda estava testando funcionalidades do React. Nesse caso, tirei uma dúvida sobre o React Router e como ele consegue modificar dinamicamente o estilo dos links de rotas com o seu componente *NavLink*. No final, essa dúvida foi essencial para que eu pudesse definir melhor a estrutura inicial do site.
