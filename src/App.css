@@ -1,3 +1,7 @@
 main {
     margin: 100px 50px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }

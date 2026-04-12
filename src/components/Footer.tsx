@@ -25,7 +25,7 @@ function Footer() {
         </a>
       </div>
       <p>
-        Favicon found in{" "}
+        Favicon encontrado em{" "}
         <a href="https://www.svgrepo.com/svg/407540/sun" target="_blank" style={{ padding: 0 }}>
           SVG Repo
         </a>
