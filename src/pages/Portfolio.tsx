@@ -1,4 +1,6 @@
 import styles from "./Portfolio.module.css";
+import protStayfe from "../assets/prototipo-stayfe.png";
+import protCadus from "../assets/prototipo-cadus.png";
 
 function Portfolio() {
   interface Projeto {
@@ -16,18 +18,23 @@ function Portfolio() {
     {
       id: 1,
       nome: "Stayfe",
-      descricao: "lorem ipsum",
-      imagem: "",
+      descricao:
+        "Projeto para a disciplina de Concepção de Artefatos Digitais com o professor Gusto, desenvolvido em equipe com Albert Santos, Bernardo Belfort, Edísio Uchôa, Gabriel Cássio e Victor Lemos. Consiste em um aplicativo que gera um mapa interativo, focado em dispositivos móveis, no qual o usuário pode registrar alguma ocorrência que tenha comprometido a sua segurança ou a de outrém na respectiva localização, dessa forma, outras pessoas poderão ver e se precaver na hora de sair de casa. Ele procura resolver o problema da insegurança que muitras pessoas sentem ao caminharem pela cidade de Recife, principalmente à noite, além de mitigar o preconceito sobre as regiões mais pobres, conscientizando a população de que o perigo pode acontecer em qualquer bairro.",
+      imagem: protStayfe,
       tecnologias: "Miro, ChatGPT, Lovable",
       prototipo: "https://stayfe.online/map",
+      observacao: "O Stayfe não tem um repositório no GitHub, pois o projeto requeria apenas um protótipo funcional."
     },
     {
       id: 2,
       nome: "Cadus",
-      descricao: "lorem ipsum",
-      imagem: "",
-      tecnologias: "Jira, Claude Code, Lovable, React + Vite, TypeScript",
-      observacao: "O repositório deste projeto está em produção!"
+      descricao:
+        "Projeto para a disciplina de Desenvolvimento de Software com os professores Kiev Gama e Vinícius Cardoso, que está sendo desenvolvido em equipe com Alex Mayrinck, Bernardo Belfort, Edísio Uchôa, Francisco Faustino, Gabriel Cássio, Rafael Samico e Victor Lemos. Ele é um site que serve de ponte entre o paciente encaminhado às clínicas-escola da UFPE e as próprias instituições, fornecendo o contato inicial através de um formulário no qual o paciente informa sua queixa e é devidamente associado à melhor clínica que possa recebê-lo, como se fosse um processo de triagem digitalizado. Depois disso, o profissional pode ter acesso às informações médicas do paciente antes do seu atendimento.",
+      imagem: protCadus,
+      tecnologias:
+        "Jira, Claude, Lovable, React + Vite (HTML, CSS e TypeScript)",
+      prototipo: "https://cadus-facil-login.lovable.app/",
+      observacao: "O repositório deste projeto está em produção!",
     },
   ];
 
@@ -43,7 +50,7 @@ function Portfolio() {
               src={proj.imagem}
               alt={`Imagem do protótipo do ${proj.nome}`}
             />
-            <p>Tencologias: {proj.tecnologias}</p>
+            <p>Tencologias: {proj.tecnologias}.</p>
             <div className={styles.linksProjeto}>
               {proj.prototipo && (
                 <a href={proj.prototipo} target="_blank">
@@ -55,10 +62,8 @@ function Portfolio() {
                   GitHub
                 </a>
               )}
-              {proj.observacao && (
-                <em>{proj.observacao}</em>
-              )}
             </div>
+            {proj.observacao && <em>{proj.observacao}</em>}
           </article>
         ))}
       </section>

@@ -11,17 +11,26 @@
     color: #000;
     font-weight: bold;
   }
+
+  img {
+    width: 550px;
+  }
 }
 
 .projetos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 80px;
   justify-content: center;
 }
 
 .projetoUnico {
-    width: 500px;
+    width: 600px;
     text-align: center;
+}
+
+.linksProjeto {
+  display: flex;
+  justify-content: center;
 }
