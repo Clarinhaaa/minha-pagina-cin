@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: #8282cb;
+  background-color: var(--secondary-bg);
   height: 50px;
   margin-bottom: 30px;
   padding: 10px 30px;
@@ -9,5 +9,6 @@
 
   a {
     font-weight: bold;
+    color: #000;
   }
 }

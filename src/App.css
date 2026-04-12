@@ -1,5 +1,5 @@
 /* Estilos globais para classes */
 a.active {
-    background-color: #edcc55;
+    background-color: var(--accent-color);
     border-radius: 5px;
 }

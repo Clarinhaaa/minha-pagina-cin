@@ -4,6 +4,8 @@
   --text: #fff;
   --text-h: #fff;
   --bg: #1b1b34;
+  --secondary-bg: #8282cb;
+  --accent-color: #edcc55;
 
   --sans: ui-monospace, Consolas, monospace;
   --heading: ui-monospace, Consolas, monospace;
@@ -19,7 +21,6 @@
 }
 
 #root { /* classe da div no index.html */
-  text-align: center;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -57,6 +58,6 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--accent-color);
     padding: 5px 10px;
 }
