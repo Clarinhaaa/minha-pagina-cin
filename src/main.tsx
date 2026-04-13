@@ -9,7 +9,7 @@ import Portfolio from "./pages/Portfolio.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/~acoc/dist">
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
